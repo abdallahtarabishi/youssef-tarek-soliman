@@ -78,10 +78,32 @@
         /* Footer */
         .footer {
             margin-top: 25px;
-            font-size: 13px;
-            color: #666;
             text-align: center;
-            padding-top: 10px;
+        }
+
+        .footer-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4a90e2; /* لون مميز للفت الانتباه */
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .footer-btn:hover {
+            transform: scale(1.05);
+            background: #357ab7; /* غامق شوية عند hover */
+        }
+
+        .credit {
+            margin-top: 15px; /* زيادة المسافة بين الزر والنص */
+            font-size: 15px; /* حجم مناسب وواضح */
+            font-weight: bold;
+            color: #eee; /* لون واضح على الداكن */
+            line-height: 1.4;
         }
 
     </style>
@@ -114,36 +136,15 @@
 
 </div>
 
-<!-- Footer Button -->
+<!-- Footer Button + Credit -->
 <div class="footer">
     <a class="footer-btn" href="https://abdallahtarabishi.github.io/" target="_blank">
         انشئ موقعك الآن! 🚀
     </a>
+    <p class="credit">
+     This Website developed by Abdallah El Tarabishi
+    </p>
 </div>
-
-<style>
-.footer {
-    margin-top: 25px;
-    text-align: center;
-}
-
-.footer-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #4a90e2; /* لون مميز للفت الانتباه */
-    color: #fff;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: transform 0.3s, background 0.3s;
-}
-
-.footer-btn:hover {
-    transform: scale(1.05);
-    background: #357ab7; /* غامق شوية عند hover */
-}
-</style>
 
 </body>
 </html>
